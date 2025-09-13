@@ -136,8 +136,8 @@ const downloadMessage = ref('')
 const downloadStatus = ref('')
 
 // CV file path - Sesuaikan dengan lokasi file CV Anda
-const CV_PATH = './assets/cv/cvzidan.pdf' // atau './assets/cv/CV_Zidan.pdf'
-const CV_FILENAME = 'cv_rizkyahmadzidan.pdf'
+const CV_PATH = '/cv/cvzidan.pdf' // atau './assets/cv/CV_Zidan.pdf'
+const CV_FILENAME = 'cvzidan.pdf'
 
 // Function untuk download CV
 const downloadCV = async () => {
