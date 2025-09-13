@@ -8,6 +8,6 @@ module.exports = {
     "plugin:vue/vue3-recommended"
   ],
   rules: {
-    // tambahin aturan custom di sini kalau perlu
+       "vue/multi-word-component-names": "off"
   }
 };
