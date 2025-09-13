@@ -1,16 +1,13 @@
-export default {
-  root: true,
+module.exports = {
   env: {
+    browser: true,
     node: true,
   },
   extends: [
     "eslint:recommended",
-    "plugin:vue/vue3-essential"
+    "plugin:vue/vue3-recommended"
   ],
-  parserOptions: {
-    parser: "@babel/eslint-parser",
-  },
   rules: {
-    // kosong dulu aja, nanti bisa ditambah
-  },
-}
+    // tambahin aturan custom di sini kalau perlu
+  }
+};
